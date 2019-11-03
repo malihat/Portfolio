@@ -1,0 +1,16 @@
+extends layout.pug 
+
+block content 
+
+    div#portfolio-body
+        h1 My Portfolio
+        p.portfolio-header
+            | This portfolio is about the projects that I have successfully completed. The purpose of this portfolio is to 
+            | show my skills that I have gained. By making a portfolio I will be able to display my work and prove the hard work 
+            | and my dedication to become a web devloper. 
+        div.container
+            each project in projects 
+                .cell
+                    a(href=`/project/${project.id}`)
+                        img(src=`${project.images_url[0]}`)
+                        p #{project.project_name}

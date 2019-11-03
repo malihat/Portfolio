@@ -1,0 +1,209 @@
+/*  Page Layout */
+body {
+    margin: 0;
+}
+
+h1, h2, h3, p, li, a {
+    font-family: 'Montserrat', sans-serif;
+}
+
+div#header {
+    text-align: center;
+    background-color: #635585;
+}
+
+div#header img {
+    width: 100px;
+    height: 100px;
+}
+div#header h1 {
+    margin: 10px 0;
+}
+
+div#header p {
+    font-size: 20px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+#nav {
+    /* width: 70%;
+    margin: 0 auto; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+#nav a {
+    margin: 10px;
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid #91918a;
+    border-radius: 10px;
+    background-color: #99a682;
+    /* background-color: #c1e0ba; */
+    text-decoration: none;
+    color: black;
+}
+
+/* Homepage Projects section  */
+#portfolio-body {
+    width: 75%;
+    margin: 0 auto;
+}
+
+img {
+    border: 1px solid lightgray;
+}
+
+#portfolio-body h1 {
+    text-align: center;
+}
+
+.portfolio-header {
+    width: 98%;
+    margin: 0 auto;
+    font-size: 1.2em;
+    padding-bottom: 20px;
+    border-bottom: 1px black solid;
+    margin-bottom: 22px;
+    line-height: 1.4em;
+}
+
+.container .cell img {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.container .cell p {
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: 3px;
+}
+
+.container .cell a {
+    text-decoration: none;
+    font-size: 21px;
+}
+
+.container {
+    display: flex;
+    /* grid-template: 1.6em 1.6em 1.6em / 1.2em 1.2em 1.2em; */
+    /* grid-template-columns: 1.6em 1.6em 1.6em;
+    grid-template-rows: 1.2em 1.2em 1.2em; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Each Project */
+#project {
+    width: 85%;
+    margin: 0 auto;
+}
+
+#project-title-tech {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#project-title {
+    display: flex;
+    flex-direction: column;
+}
+
+#project-title p {
+    font-size: 1.2em;
+    /* font-size: 18px; */
+    margin-right: 25px;
+
+}
+
+#project-tech-links {
+    display: flex;
+    flex-direction: column;
+}
+#project-tech {
+    margin-bottom: 20px;
+}
+
+#project-tech ul {
+    margin: 0;
+    margin-bottom: 8px;
+    /* list-style-type: none; */
+}
+
+#project-tech li {
+    font-size: 15px;
+}
+
+#project-links {
+    display: flex;
+    flex-direction: column;
+}
+
+#project-links a {
+    background-color: #e38707;
+    padding: 3px;
+    margin: 3px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+#project img {
+    width: 80%;
+    margin-bottom: 25px;
+}
+
+/* About Page */
+#about {
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+}
+
+#about-title {
+    display: flex;
+    flex-direction: column;
+}
+#about-title p {
+    margin-right: 20px;
+    font-size: 1.2em;
+    
+}
+
+#about-skills-contact {
+    display: flex;
+    flex-direction: column; 
+}
+
+#about-skills-contact ul {
+    padding-left: 20px;
+    /* margin-bottom: 8px; */
+}
+
+#about-skills-contact h3 {
+    margin-bottom: 3px;
+}
+
+#about-skills-contact a {
+    background-color: #e38707;
+    padding: 3px;
+    margin: 3px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+    div#about {
+        display: flex;
+        flex-direction: column;
+    }
+    div#about-skills-contact {
+        width: 242px;
+    }
+}
