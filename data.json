@@ -1,0 +1,59 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "Random quote generator",
+            "description": "A random quote is generated after every 15 seconds or if the button is clicked",
+            "technologies": ["html", "css", "javaScript"],
+            "live_link": "https://malihat.github.io/techdegree-project-1/",
+            "github_link": "https://github.com/malihat/techdegree-project-1",
+            "images_url" : ["/static/images/project1-a.jpg", "/static/images/project1-b.jpg", "/static/images/project1-c.jpg"]
+        },
+        {
+            "id": 1,
+            "project_name": "List Pagination and Filtering",
+            "description": "It provides a list of students which is paginated by displaying 10 students per page. User can also use a search bar to filter from students' list.",
+            "technologies": ["javaScript"],
+            "live_link": "https://malihat.github.io/techdegree-project-2/",
+            "github_link": "https://github.com/malihat/techdegree-project-2",
+            "images_url" : ["/static/images/project2-a.jpg", "/static/images/project2-b.jpg", "/static/images/project2-c.jpg", "/static/images/project2-d.jpg"]
+        },
+        {
+            "id": 2,
+            "project_name": "Interactive Form",
+            "description": "It displays a form which has input fields, dropdown menus and checkboxes. There is a submit button at the end of the form. If the user has missed required field the form will not submit  ",
+            "technologies": ["jQuery"],
+            "live_link": "https://malihat.github.io/techdegree-project-3/",
+            "github_link": "https://github.com/malihat/techdegree-project-3",
+            "images_url" :["/static/images/project3-a.jpg", "/static/images/project3-b.jpg", "/static/images/project3-c.jpg", "/static/images/project3-d.jpg"]
+        },
+        {
+            "id": 3,
+            "project_name": "Phrase Hunter Game",
+            "description": "The player has to guess the phrase. Player will get 5 chances to guess, after every wrong answer a heart will be lost and after every correct guess the letter in the phrase will be displayed. Every time the player guess a letter, it will be disabled on the keyboard.",
+            "technologies": ["jQuery", "object oriented javascript"],
+            "live_link": "https://malihat.github.io/techdegree-project-4/",
+            "github_link": "https://github.com/malihat/techdegree-project-4",
+            "images_url" : ["/static/images/project4-a.jpg", "/static/images/project4-b.jpg", "/static/images/project4-c.jpg"]
+        },
+        {
+            "id": 4,
+            "project_name": "Public API Requests",
+            "description": "The data used was requested using an API. A random user generator API was used to list 12 employees in a grid. By clicking the employee’s image, the modal window is opened and more detailed information about the user will be available. I have changed the background color and added box shadow to the modal.",
+            "technologies": ["jQuery", "javascript"],
+            "live_link": "https://malihat.github.io/techdegree-project-5/",
+            "github_link": "https://github.com/malihat/techdegree-project-5",
+            "images_url" : ["/static/images/project5-a.jpg", "/static/images/project5-b.jpg", "/static/images/project5-c.jpg"]
+        }, 
+        {
+            "id": 5,
+            "project_name": "React Gallery App",
+            "description": "This project is about a single page app that uses API to fetch data specific to the user’s requirement. The project shows list of cat’s images when the page first loads. There are 3 buttons and when the user clicks a button the specific data is fetched. User can also search by typing in the input search field. ",
+            "technologies": ["react", "react-router"],
+            "live_link": "",
+            "github_link": "https://github.com/malihat/techdegree-project-7",
+            "images_url" : ["/static/images/project7-a.jpg", "/static/images/project7-b.jpg", "/static/images/project7-c.jpg"]
+
+        }
+    ]
+}
